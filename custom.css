@@ -1,21 +1,9 @@
-@media (prefers-color-scheme: dark) {
-    :root, body {
-        --primary: #303030;
-        --secondary: #fffbf2;
-        --accent: #277cfc;
-        --highlight: #28b83b;
-        --gradient: linear-gradient(to right, var(--highlight), var(--accent));
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    :root, body {
-        --primary: #fffbf2;
-        --secondary: #303030;
-        --accent: #0549b1;
-        --highlight: #28b83b;
-        --gradient: linear-gradient(to right, var(--highlight), var(--accent));
-    }
+:root, body {
+    --primary: #303030;
+    --secondary: #fffbf2;
+    --accent: #277cfc;
+    --highlight: #28b83b;
+    --gradient: linear-gradient(to right, var(--highlight), var(--accent));
 }
 
 h1 {
